@@ -7,7 +7,7 @@ function FeedbackStats ({ feedback }) {
       return acc + cur.rating
     }, 0) / feedback.length
 
-  //average = average.toFixed()
+  average = average.toFixed(2)
 
   return (
     <div className='feedback-stats'>
